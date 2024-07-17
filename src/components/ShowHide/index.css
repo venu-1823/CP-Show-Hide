@@ -1,0 +1,38 @@
+.bg-container {
+  display: flex;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.show-hide-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+button {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 30px;
+}
+.show-hide-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+padding: 43px;
+  background-color: #fddddb;
+  border-radius: 20px;
+  color: black;
+  font-weight: 600;
+}
